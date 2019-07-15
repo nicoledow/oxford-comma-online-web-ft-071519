@@ -5,7 +5,8 @@ def oxford_comma(array)
     if i < array.size - 1
       sentence << word + ", "
     elsif i == array.size - 1
-    
+      sentence << "and " + #{word}
     end
   end
+  sentence
 end
