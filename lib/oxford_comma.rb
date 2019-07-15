@@ -1,3 +1,4 @@
+=begin
 def oxford_comma(array)
   sentence = ""
   
@@ -9,4 +10,13 @@ def oxford_comma(array)
     end
   end
   sentence
+end
+=end
+
+def oxford_comma(array)
+  case array.length
+  when 1
+    #{array[0]}
+  when 2
+    #{array[0]} + "and "
 end
