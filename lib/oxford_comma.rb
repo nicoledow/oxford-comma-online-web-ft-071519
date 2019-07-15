@@ -1,5 +1,11 @@
 def oxford_comma(array)
-  new_string = array.join(" ")
+  sentence = ""
   
-  new_string
+  array.each_with_index do |word, i|
+    if i < array.size - 1
+      sentence << word + ", "
+    elsif i == array.size - 1
+    
+    end
+  end
 end
