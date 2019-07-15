@@ -20,5 +20,5 @@ def oxford_comma(array)
   when 2
     "#{array[0]} and #{array[1]}"
   else
-    array.each_with_index
+    array[0..-2]
 end
